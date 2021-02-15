@@ -390,16 +390,19 @@ export class EditPasteMyst {
 }
 
 export class DeletePasteMyst {
+	authorisation: string
 	id: string
 
 	config: AxiosRequestConfig = {
 		headers: {
 			'Content-Type': 'application/json',
-			Authorization: 'KriGGIx4+EaxAL+65O0BU3flHVqArEzvSYHzxv/dGzU=',
+			// @ts-ignore
+			Authorization: this.authorisation,
 		},
 	}
 
-	constructor(id: string) {
+	constructor(authorisation: string, id: string) {
+		this.authorisation = authorisation
 		this.id = id
 	}
 
