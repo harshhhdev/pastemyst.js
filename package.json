@@ -1,0 +1,29 @@
+{
+	"name": "pastemyst.js",
+	"version": "0.0.1",
+	"description": "A small API wrapper for https://paste.myst.rs/",
+	"main": "dist/index.js",
+	"repository": "https://github.com/harshhhdev/pastemyst.js",
+	"author": "Harsh Singh",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"start": "node dist/pastemyst.js",
+		"bot": "node examples/discord",
+		"build": "tsc"
+	},
+	"keywords": [
+		"pastemyst",
+		"paste.myst",
+		"api wrapper",
+		"pastemyst.rs",
+		"paste.myst.rs",
+		"pastebin",
+		"hastebin",
+		"github gist"
+	],
+	"dependencies": {
+		"axios": "^0.21.1",
+		"discord.js": "^12.5.1"
+	}
+}
