@@ -1,19 +1,18 @@
 <p align='center'>
     <a href="https://paste.myst.rs/">
-    <img alt="PasteMyst" src="https://media.discordapp.net/attachments/790618243068067890/806980849043374100/unknown.png?width=433&height=465" width="300" />
     <h2 align="center">pastemyst.js</h2>
   </a>
   <p align="center">A Node.js API wrapper for PasteMyst</p>
-  <p align="center">This provides full support for the current [v2 API](https://paste.myst.rs/api-docs/)</p>
+  <p align="center">This provides full support for the current <a href="https://paste.myst.rs/api-docs">v2 API</a></p>
 </p>
 
 # Usage
 
 Individually, in the [examples folder](https://github1s.com/harshhhdev/pastemyst.js/tree/master/examples) you can find all your desired samples on how to get something going.
 
-## /paste
+## /paste 📝
 
-### Creating a Paste
+### Creating a Paste 📰
 
 ```ts
 import * as pastemyst from './../../src/pastemyst'
@@ -43,7 +42,7 @@ new pastemyst.CreatePasteMyst(
 	.catch((err) => console.log(err))
 ```
 
-### Logging in and creating a paste. 
+### Logging in and creating a paste 📰
 
 This enables more options such as tags, making it public on your profile, and private pastes.
 
@@ -85,7 +84,7 @@ new pastemyst.CreatePasteMystLoggedIn(
 	.catch((err) => console.log(err))
 ```
 
-### Deleting a paste
+### Deleting a paste ❌
 
 ```ts
 import * as pastemyst from './../../../src/pastemyst'
@@ -104,7 +103,7 @@ new pastemyst.DeletePasteMyst('pastemyst api key', 'paste id')
 	.catch((err) => console.log(err))
 ```
 
-### Editing a paste
+### Editing a paste ✏️
 
 ```ts
 import * as pastemyst from './../../../src/pastemyst'
@@ -145,7 +144,7 @@ new pastemyst.EditPasteMyst(
 	.catch((err) => console.log(err))
 ```
 
-### Getting a paste
+### Getting a paste 📝
 
 ```ts
 import * as pastemyst from './../../src/pastemyst'
@@ -160,7 +159,7 @@ new pastemyst.GetPasteMyst('codemyst')
 	.catch((err) => console.log(err))
 ```
 
-### Getting a private paste 
+### Getting a private paste 📝
 
 ```ts
 import * as pastemyst from './../../../src/pastemyst'
@@ -179,9 +178,9 @@ new pastemyst.GetPrivatePaste('pastemyst api key', 'private-paste-id')
 	.catch((err) => console.log(err))
 ```
 
-## /user
+## /user 🧑
 
-### Getting a user
+### Getting a user 🧔
 
 ```ts
 import * as pastemyst from './../../src/pastemyst'
@@ -196,7 +195,7 @@ new pastemyst.GetPasteMystUser('codemyst')
 	.catch((err) => console.log(err))
 ```
 
-### Checking if a user exists
+### Checking if a user exists 👵
 
 ```ts
 import * as pastemyst from './../../src/pastemyst'
@@ -211,9 +210,9 @@ new pastemyst.GetPasteMystUserExists('codemyst')
 	.catch((err) => console.log(err))
 ```
 
-## /data
+## /data 📈
 
-### Getting a language by extension
+### Getting a language by extension 🗯️
 
 ```ts
 import * as pastemyst from './../../../src/pastemyst'
@@ -228,7 +227,7 @@ new pastemyst.GetLanguageByExtension('ts')
 	.catch((err) => console.log(err))
 ```
 
-### Getting a language by name
+### Getting a language by name 🗯️
 
 ```ts
 import * as pastemyst from './../../../src/pastemyst'
@@ -243,9 +242,9 @@ new pastemyst.GetLanguageByName('typescript')
 	.catch((err) => console.log(err))
 ```
 
-### /time
+### /time ⏰
 
-### Time Expires to Unix Timestamp
+### Time Expires to Unix Timestamp 🕰️
 
 ```ts
 import * as pastemyst from './../../../src/pastemyst'
