@@ -1,8 +1,8 @@
 {
-	"name": "pastemyst.js",
+	"name": "pastemyst",
 	"version": "0.0.2",
 	"description": "A small API wrapper for https://paste.myst.rs/",
-	"main": "dist/index.js",
+	"main": "dist/pastemyst.js",
 	"repository": "https://github.com/harshhhdev/pastemyst.js",
 	"author": "Harsh Singh",
 	"license": "MIT",
@@ -23,10 +23,10 @@
 		"github gist"
 	],
 	"dependencies": {
-		"axios": "^0.21.1",
-		"discord.js": "^12.5.1"
+		"axios": "^0.21.1"
 	},
 	"devDependencies": {
-		"typescript": "^4.1.5"
+		"typescript": "^4.1.5",
+		"discord.js": "^12.5.1"
 	}
 }
