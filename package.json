@@ -1,6 +1,6 @@
 {
 	"name": "pastemyst",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A small API wrapper for https://paste.myst.rs/",
 	"main": "dist/pastemyst.js",
 	"repository": "https://github.com/harshhhdev/pastemyst.js",
